@@ -2,7 +2,9 @@
 
 > Defina los términos: grafo, grafo dirigido (o digrafo), cuándo un vértice es adyacente a otro, peso (o coste) de un grafo, camino, longitud de un camino, bucle en un grafo, ciclo, camino simple, grafo acíclico (o DAG), grafo conexo, grafo fuertemente conexo, grafo débilmente conexo y grafo completo.
 
-- **Grafo**: Un **grafo** es una **estructura de datos** compuesta por un conjunto de **vértices** (o nodos) y un conjunto de **aristas** (o enlaces) que **conectan pares de vértices**. Puede ser representado como `G = (V, E)`
+- **Grafo**: Un **grafo** es una **estructura de datos** compuesta por un conjunto de **vértices** (o nodos) y un conjunto de **aristas** (o enlaces) que **conectan pares de vértices**.
+
+    Puede ser representado como `G = (V, E)` donde **V** es el conjunto de **nodos** y **E** el conjunto de **aristas**
 
     Un grafo **no es lineal** porque sus elementos NO estan organizados de manera SECUENCIAL, cada elemento puede estar conectado a **0, 1 o VARIOS** otros elementos, lo que permite **multiples relaciones / caminos posibles** entre ellos
 
